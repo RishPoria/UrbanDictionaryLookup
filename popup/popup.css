@@ -1,0 +1,42 @@
+* {
+    scroll-behavior: smooth;
+}
+
+* ::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+* ::-webkit-scrollbar-track {
+    background-color: #243642;
+}
+
+* ::-webkit-scrollbar-thumb {
+    background-color: #b1b1b1;
+    border-radius: 200px;
+}
+
+body {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(27, 41, 54);
+}
+
+#logo {
+    max-width:100%;
+    max-height:100%;
+} 
+
+#word {
+    font-size: 28px;
+    color:rgb(31, 162, 243);
+    padding-bottom: 0px;
+}
+
+#def {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 0px;
+    font-family: Merriweather, sans-serif;
+}
